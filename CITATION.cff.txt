@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or protocol in research, please cite it as below."
+title: "H_SPACE V0.2 preregistered sweep (NOVA Q / EIT internal mathematical model, not physics)"
+type: software
+authors:
+  - family-names: Mladenovski
+    given-names: Toni
+    orcid: "https://orcid.org/0009-0009-8343-662X"
+    affiliation: "EITNetworks LLC (Independent Researcher)"
+version: "0.2"
+date-released: "2026-10-05"
+repository-code: "https://github.com/eit-orbitos/h-space-v0-2"
