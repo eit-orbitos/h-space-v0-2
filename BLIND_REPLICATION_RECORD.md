@@ -158,3 +158,4 @@ held; the fragile cell DIRECTED_CYCLE N=48 theta=0.40 (CI upper 0.098) stayed PA
 - No post-hoc rescue rule was applied. Any fix to the protocol is a V0.2.1 candidate requiring a
   new version, new hash and new preregistration.
 - Nothing here is a physical result.
+  
