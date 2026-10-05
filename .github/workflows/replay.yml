@@ -1,0 +1,45 @@
+name: preregistered-replay
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+jobs:
+  replay:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 180
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Verify frozen bytes
+        run: python verify_hashes.py
+      - name: Run preregistered sweep
+        run: python h_space_v0_2_sweep.py > report_raw.json
+      - name: Canonicalize and hash
+        run: |
+          python canonicalize_report.py report_raw.json report.json > report.sha256
+          python --version
+          cat report.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: report-${{ matrix.os }}
+          path: |
+            report.json
+            report.sha256
+  compare:
+    needs: replay
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+      - name: Require identical report hash on all three OS
+        run: |
+          cat report-*/report.sha256
+          test "$(cat report-*/report.sha256 | sort -u | wc -l)" -eq 1
