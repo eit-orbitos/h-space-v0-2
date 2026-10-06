@@ -1,0 +1,35 @@
+{
+  "package": "H_SPACE_V0_2_PUBLIC_RELEASE_STAGING",
+  "status": "PUBLICATION_PENDING_GATES",
+  "reserved_zenodo_doi": "10.5281/zenodo.23179226",
+  "doi_status": "RESERVED_NOT_REGISTERED",
+  "overall_result": "OVERALL_INCONCLUSIVE",
+  "scope": "Public-safe archival staging metadata and publication limitations only.",
+  "payload_file_count": 4,
+  "manifest_exclusions": [
+    "MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 510,
+      "sha256": "b5636bcc10ebe543e2481a38db25bc0dbcf10bb42cd106705ec24e1a5bfb748f"
+    },
+    {
+      "path": "PUBLICATION_SCOPE_AND_LIMITATIONS.md",
+      "bytes": 3987,
+      "sha256": "f6607d375f84262120a65a61bd44598afb785c3876c0950c84d1ed8636e43a13"
+    },
+    {
+      "path": "execution_metadata.public.json",
+      "bytes": 410,
+      "sha256": "8129132726bb8b460a6f6332e3075dcc0212cd0a4135405d512dedef3b24d3a2"
+    },
+    {
+      "path": "launch_metadata.public.json",
+      "bytes": 309,
+      "sha256": "da2ec1bbeaade18a8b5166270aa1fec4c1fb6772e90203b1b31f5fdbbf3db23b"
+    }
+  ]
+}
