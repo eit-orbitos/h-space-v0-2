@@ -1,1 +1,0 @@
-delivery manifest for H_SPACE V0.2 blind reimplementation - source: h_space_v0_2_blind_reimpl_FINAL.py (sha256 44e56469a0eae21e8fd06778b8a58bc6f8d6842f64ebb67b03bad16229b12dc6), results: h_space_v0_2_blind_result_FINAL.json (sha256 7257bd98ef0cb2936752244268c8e34b0bcb67ab189292e4ee78df941cd11082)
