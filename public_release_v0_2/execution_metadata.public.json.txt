@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "h_space_v0_2_blind_reimpl_FINAL-1.py"
+  ],
+  "cwd": "/tmp/hspace-clean-replay-8z4q2w_b",
+  "executable": "/usr/local/bin/python3",
+  "python_version": "3.12.15 (main, Oct  1 2026, 21:47:32) [GCC 14.2.0]",
+  "start_utc": "2026-10-06T00:36:54.509900+00:00",
+  "pid": 1368,
+  "end_utc": "2026-10-06T00:38:56.695155+00:00",
+  "exit_code": 0,
+  "duration_seconds": 122.185255
+}
