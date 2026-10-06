@@ -1,10 +1,14 @@
 # H_SPACE V0.2 — preregistered sweep
 
 **STATUS:** INTERNAL_MATHEMATICAL_MODEL · NOT_PHYSICS · NOT_FROZEN_LAW
-**ZENODO / FREEZE / PUBLICATION:** DOI_RESERVED · PUBLICATION_PENDING_GATES
 
-Reserved Zenodo DOI: 10.5281/zenodo.23179226.
-The DOI becomes registered when the archival record is published.
+**ZENODO / FREEZE / PUBLICATION:**
+PUBLISHED · VERSION_0.2 · ARCHIVAL_RECORD_LIVE
+
+Zenodo DOI for H_SPACE V0.2:
+10.5281/zenodo.23180403
+
+
 
 Part of the NOVA Q / EIT framework (EITNetworks LLC, Toni Mladenovski, ORCID 0009-0009-8343-662X).
 
