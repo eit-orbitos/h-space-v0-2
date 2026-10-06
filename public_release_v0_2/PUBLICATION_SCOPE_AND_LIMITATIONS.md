@@ -1,11 +1,10 @@
 # H_SPACE V0.2 — Publication scope and limitations
 
 Document status: publication-staging draft. Intended for inclusion in the final, separately hashed public-safe package before publication. This document does not itself publish, freeze, or validate the model.
-RESERVED_ZENODO_DOI:
-10.5281/zenodo.23179226
 
-DOI_STATUS:
-RESERVED_NOT_REGISTERED
+
+
+
 
 ## Intended archival role
 
